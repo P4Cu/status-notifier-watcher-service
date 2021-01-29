@@ -1,0 +1,11 @@
+[Unit]
+Description=Service that implements the StatusNotifierWatcher dbus interface allowing DE (eg. Gnome) to implement StatusNotifierItem area (new System Tray specification).
+
+[Service]
+Type=dbus
+ExecStart=/usr/bin/status-notifier-watcher
+BusName=org.kde.StatusNotifierWatcher
+Restart=on-failure
+
+[Install]
+WantedBy=gnome-session-pre.target

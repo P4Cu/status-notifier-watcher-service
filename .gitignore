@@ -1,0 +1,5 @@
+builddir/
+run/
+server.vala
+*.unc-backup~
+*.unc-backup.md5~
