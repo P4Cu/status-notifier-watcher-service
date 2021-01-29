@@ -8,7 +8,7 @@ License: ASL 2.0
 URL: https://www.github.com/p4cu/status-notifier-watcher-service/
 BuildArch: noarch
 
-Source0: %{name}-%{version}.tar.gz
+Source0: %{name}-%{version}.tar.xz
 
 BuildRequires: meson
 BuildRequires: gcc
