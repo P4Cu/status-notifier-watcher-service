@@ -6,7 +6,7 @@ Release: 1%{?dist}
 Summary: StatusNotifierWatcher implementation for tray support
 License: ASL 2.0
 URL: https://www.github.com/p4cu/status-notifier-watcher-service/
-BuildArch: noarch
+BuildArch: x86_64
 
 Source0: %{name}-%{version}.tar.xz
 
